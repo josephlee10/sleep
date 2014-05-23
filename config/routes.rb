@@ -1,6 +1,6 @@
 Sleep::Application.routes.draw do
 
-  root 'home#index'
+  root 'home#login'
 
 get ':controller(/:action(/:id))'
 post ':controller(/:action(/:id))'

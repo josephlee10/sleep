@@ -1,0 +1,55 @@
+@font-face {
+	font-family: raleway;
+	src: url(../../Raleway-Regular.otf);
+}
+
+html {
+	height:100%;
+}
+
+body {
+	background-image:url('../../stars1.gif');
+	opacity: 0.9;
+	color: whitesmoke;
+	font-family: raleway;
+	height:100%;
+}
+
+h1 {
+	font-family: raleway;
+}
+
+h2 {
+	font-family: raleway;
+}
+
+h3 {
+	font-family: raleway;
+}
+
+.sleep_btn {
+	background-color: #FFFFCC;
+}
+
+#hour_txt {
+	top: 20px;
+}
+
+.twentydown {
+	top: 20px;
+}
+
+
+#sleep_debt {
+	font-size: 200px;
+	margin-top: -20px;
+}
+
+.container {
+	background-color: #404040;
+	height: 100%;
+}
+
+#myModalLabel {
+	color: black;
+}

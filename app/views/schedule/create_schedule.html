@@ -1,0 +1,40 @@
+<div class="container">
+
+	</br></br>
+
+	<div class="text-center"><h1>Create a schedule!</h1></div>
+
+	</br></br>
+
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-8">
+			<h2 class="text-center">Input appropriate hours of sleep per night. 8 is recommended :)</h2>
+		</div>		
+		<div class="col-sm-2"></div>
+	</div>
+
+	<%= form_tag :controller => "schedule", :action => "post_create_schedule" do %>
+
+	<div class="row">
+		<div class="col-sm-5"></div>
+		<div id="hour_txt" class="col-sm-1">	
+			<input class="form-control" name="required_num_hours"></input>
+		</div>
+		<div class="col-sm-1"><h2>Hours</h2></div>
+		<div class="col-sm-5"></div>
+	</div>
+
+</br></br>
+
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<button type="submit" class="btn sleep_btn form-control">Start Schedule</button>
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+
+	<% end %>
+
+</div>

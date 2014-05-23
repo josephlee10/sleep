@@ -1,0 +1,56 @@
+<div class="container">
+
+</br></br>
+
+	<h1 class="text-center">Hi <%=@username%>! Your sleep debt is </h1>
+	<h1 id="sleep_debt" class="text-center"><%=@sleep_debt%></h1>
+
+</br>
+
+<h3 class="text-center">Your required number of hours of sleep per day: <%=@required_num_hours%></h3>
+
+</br></br>
+
+	<h3 class="text-center">Log your sleep hours from last night!</h3>
+
+	<div class="row">
+		<div class="col-md-4"></div>
+		<%= form_tag :controller => "schedule", :action => "log_hours" do %>
+		<div class="col-md-1 twentydown">
+			<input name="hours" class="form-control"></input>
+		</div>
+		<div class="col-md-1"><h2>hours</h2></div>
+		<div class="col-md-2 twentydown">
+			<button type="submit" class="btn form-control sleep_btn twentydown">Log!</button>
+		</div>
+		<% end %>
+
+		<div class="col-md-4"></div>
+	</div>
+
+
+
+<button id="modbutton" class="hidden" type="button" data-toggle="modal" data-target="#myModal">Launch modal</button>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+<!--       <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title text-center" id="myModalLabel">Did you know...</h2>
+      </div> -->
+      <div class="modal-body" style="color:black">
+        <h3><%=@random_info%></h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+	$("#modbutton").click();
+</script>
+
+
+</div>
+

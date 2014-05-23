@@ -157,3 +157,54 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-22 17:43:58
 
 
 Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-22 17:43:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-22 17:52:06 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html within layouts/application (2.9ms)
+Completed 200 OK in 106ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-22 17:52:07 -0700
+  [1m[36m (49.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (12.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (10.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20140523010056)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (4.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (19.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140523010056"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Migrating to CreateDebts (20140523010233)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (3.0ms)[0m  [1mCREATE TABLE "debts" ("id" serial primary key, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140523010233"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSchedules (20140523010444)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (2.9ms)[0m  [1mCREATE TABLE "schedules" ("id" serial primary key, "started_at" timestamp, "current_debt" integer, "required_num_hours" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140523010444"]]
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+Migrating to CreateDays (20140523010450)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (3.0ms)[0m  [1mCREATE TABLE "days" ("id" serial primary key, "recorded_at" timestamp, "hours_slept" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140523010450"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"

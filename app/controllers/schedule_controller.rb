@@ -13,7 +13,9 @@ class ScheduleController < ApplicationController
 			random_index = rand(0..numFacts)
 			random_fact = facts[random_index]
 			@random_info = random_fact.info
+			@header = "Uh-oh! You have sleep debt!"
 		else
+			@header = "Nice!"
 			@random_info = "You caught up on on your sleep debt. Way to go!"
 		end
 	end

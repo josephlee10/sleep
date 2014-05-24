@@ -48,6 +48,7 @@ class HomeController < ApplicationController
 		if allUsers.include? username then
 			flash[:taken] = "Username already taken :("
 			redirect_to :action => "create"
+			return
 		end
 
 		u = User.new

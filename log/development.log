@@ -26104,3 +26104,5029 @@ Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 06:56:45 -0700
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 06:56:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:05:43 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (6.0ms)
+Completed 200 OK in 462ms (Views: 421.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:44 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:44 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:44 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:05:45 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:06:04 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"dafooooq"}
+Completed 500 Internal Server Error in 58ms
+
+NoMethodError (undefined method `username' for #<Class:0x007fe543c3b6f0>):
+  app/controllers/home_controller.rb:10:in `post_login'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:16:11 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (4.9ms)
+Completed 200 OK in 186ms (Views: 156.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.4ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:20 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:21 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:16:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:17:10 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.4ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:11 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:17:14 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:17:23 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (7.0ms)
+Completed 200 OK in 182ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:24 -0700
+
+
+Started POST "/home/create" for 127.0.0.1 at 2014-05-23 23:17:34 -0700
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU="}
+  Rendered home/create.html within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:17:35 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-23 23:17:47 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"joeleetest"}
+  [1m[35m (21.5ms)[0m  SELECT joeleetest FROM "users"
+PG::UndefinedColumn: ERROR:  column "joeleetest" does not exist
+LINE 1: SELECT joeleetest FROM "users"
+               ^
+: SELECT joeleetest FROM "users"
+Completed 500 Internal Server Error in 32ms
+
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "joeleetest" does not exist
+LINE 1: SELECT joeleetest FROM "users"
+               ^
+: SELECT joeleetest FROM "users"):
+  app/controllers/home_controller.rb:36:in `post_create'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:18:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.0ms)
+Completed 200 OK in 231ms (Views: 212.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:47 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:48 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:48 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:18:48 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:19:14 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"joeleetest"}
+  [1m[35m (0.6ms)[0m  SELECT "users"."username" FROM "users"
+Redirected to http://localhost:3000/home/create
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'joeleetest' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (41.0ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:19:14 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:19:14 UTC +00:00], ["username", "joeleetest"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Redirected to 
+Completed 500 Internal Server Error in 132ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/home_controller.rb:22:in `post_login'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:19:58 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:20:02 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"joeleetest"}
+  [1m[36m (0.9ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+  [1m[35mUser Load (2.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'joeleetest' LIMIT 1
+  [1m[36mSchedule Load (1.1ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 5]]
+Redirected to http://localhost:3000/schedule/create_schedule?username=joeleetest
+Completed 302 Found in 80ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/schedule/create_schedule?username=joeleetest" for 127.0.0.1 at 2014-05-23 23:20:02 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"joeleetest"}
+  Rendered schedule/create_schedule.html within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:20:10 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:20:14 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"blahblah"}
+  [1m[35m (1.6ms)[0m  SELECT "users"."username" FROM "users"
+Redirected to http://localhost:3000/home/create
+  [1m[36mUser Load (3.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'blahblah' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:20:14 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:20:14 UTC +00:00], ["username", "blahblah"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to 
+Completed 500 Internal Server Error in 18ms
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/home_controller.rb:22:in `post_login'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:24:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.4ms)
+Completed 200 OK in 187ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:16 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:17 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"asdflkj"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+Redirected to http://localhost:3000/home/create
+Completed 302 Found in 18ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/home/create" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+Processing by HomeController#create as HTML
+  Rendered home/create.html within layouts/application (1.7ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:21 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"asdflkj"}
+  [1m[36m (4.0ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (3.9ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:34 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"asdflkj"}
+  [1m[35m (1.1ms)[0m  SELECT "users"."username" FROM "users"
+Redirected to http://localhost:3000/home/create
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/home/create" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+Processing by HomeController#create as HTML
+  Rendered home/create.html within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:24:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:25:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 188ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:17 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:25:20 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"asdflkj"}
+  [1m[35m (0.8ms)[0m  SELECT "users"."username" FROM "users"
+Redirected to http://localhost:3000/home/create
+Completed 302 Found in 33ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/home/create" for 127.0.0.1 at 2014-05-23 23:25:20 -0700
+Processing by HomeController#create as HTML
+  Rendered home/create.html within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:21 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-23 23:25:25 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"asdflkj"}
+  [1m[36m (0.4ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (14.1ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:25:25 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:25:25 UTC +00:00], ["username", "asdflkj"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 50ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:25:25 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.4ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:26 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:25:31 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"asdflkj"}
+  [1m[36m (0.5ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+  [1m[35mUser Load (1.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'asdflkj' LIMIT 1
+  [1m[36mSchedule Load (1.4ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 7]]
+Redirected to http://localhost:3000/schedule/create_schedule?username=asdflkj
+Completed 302 Found in 89ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/schedule/create_schedule?username=asdflkj" for 127.0.0.1 at 2014-05-23 23:25:31 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"asdflkj"}
+  Rendered schedule/create_schedule.html within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:32 -0700
+
+
+Started POST "/schedule/post_create_schedule" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+Processing by ScheduleController#post_create_schedule as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "required_num_hours"=>"8"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'asdflkj' LIMIT 1
+  [1m[36m (5.6ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.1ms)[0m  INSERT INTO "schedules" ("created_at", "current_debt", "required_num_hours", "started_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["created_at", Sat, 24 May 2014 06:25:36 UTC +00:00], ["current_debt", 0], ["required_num_hours", 8], ["started_at", Sat, 24 May 2014 06:25:36 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:25:36 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSchedule Load (0.8ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 7]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.3ms)[0m  UPDATE "schedules" SET "user_id" = $1, "updated_at" = $2 WHERE "schedules"."id" = 7  [["user_id", 7], ["updated_at", Sat, 24 May 2014 06:25:36 UTC +00:00]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 74ms (ActiveRecord: 21.9ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+Processing by ScheduleController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'asdflkj' LIMIT 1
+  [1m[36mSchedule Load (0.5ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 7]]
+  Rendered schedule/index.html within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 18.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:25:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:26:08 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.8ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:09 -0700
+
+
+Started POST "/home/create" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU="}
+  Rendered home/create.html within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:24 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:42 -0700
+
+
+Started POST "/home/create" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU="}
+  Rendered home/create.html within layouts/application (6.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:44 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"qweroiu"}
+  [1m[35m (0.9ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36m (1.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", Sat, 24 May 2014 06:26:48 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:26:48 UTC +00:00], ["username", "qweroiu"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:48 -0700
+
+
+Started POST "/home/create" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU="}
+  Rendered home/create.html within layouts/application (0.8ms)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:52 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"qweroiu"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'qweroiu' LIMIT 1[0m
+  [1m[35mSchedule Load (4.9ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 8]]
+Redirected to http://localhost:3000/schedule/create_schedule?username=qweroiu
+Completed 302 Found in 14ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/schedule/create_schedule?username=qweroiu" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"qweroiu"}
+  Rendered schedule/create_schedule.html within layouts/application (0.9ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:26:55 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:06 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"joelee"}
+  [1m[36m (0.6ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'joelee' LIMIT 1
+  [1m[36mSchedule Load (1.1ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 1]]
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 8ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+Processing by ScheduleController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'joelee' LIMIT 1
+  [1m[36mSchedule Load (0.4ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 1]]
+DEPRECATION WARNING: Calling #find(:all) is deprecated. Please call #all directly instead. (called from index at /Users/josephlee10/Desktop/sleep/sleep/app/controllers/schedule_controller.rb:10)
+DEPRECATION WARNING: Relation#all is deprecated. If you want to eager-load a relation, you can call #load (e.g. `Post.where(published: true).load`). If you want to get an array of records from a relation, you can call #to_a (e.g. `Post.where(published: true).to_a`). (called from index at /Users/josephlee10/Desktop/sleep/sleep/app/controllers/schedule_controller.rb:10)
+  [1m[35mFact Load (0.9ms)[0m  SELECT "facts".* FROM "facts"
+  Rendered schedule/index.html within layouts/application (1.2ms)
+Completed 200 OK in 79ms (Views: 14.4ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:27:22 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordColumn (20140524064223)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20140524064223"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordToUsers (20140524064423)
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (38.0ms)[0m  [1mALTER TABLE "users" ADD COLUMN "password" character varying(255)[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140524064423"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:45:30 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (6.0ms)
+Completed 200 OK in 290ms (Views: 269.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:45:31 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:45:38 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"sharleen", "password"=>"[FILTERED]"}
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+Completed 500 Internal Server Error in 36ms
+
+NameError (undefined local variable or method `originalUsers' for #<HomeController:0x007fc77e1ee540>):
+  app/controllers/home_controller.rb:14:in `post_login'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:46:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.5ms)
+Completed 200 OK in 184ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:05 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:46:11 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"sharleen", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (undefined method `include?' for nil:NilClass):
+  app/controllers/home_controller.rb:14:in `post_login'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:46:48 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (6.2ms)
+Completed 200 OK in 214ms (Views: 188.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:48 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:49 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"sharleen", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (8.7ms)[0m  [1mINSERT INTO "users" ("created_at", "updated_at", "username") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:46:53 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:46:53 UTC +00:00], ["username", "sharleen"]]
+  [1m[35m (2.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule/create_schedule?username=sharleen
+Completed 302 Found in 75ms (ActiveRecord: 16.4ms)
+
+
+Started GET "/schedule/create_schedule?username=sharleen" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"sharleen"}
+  Rendered schedule/create_schedule.html within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:46:53 -0700
+
+
+Started POST "/schedule/post_create_schedule" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+Processing by ScheduleController#post_create_schedule as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "required_num_hours"=>"6"}
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "schedules" ("created_at", "current_debt", "required_num_hours", "started_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:46:59 UTC +00:00], ["current_debt", 0], ["required_num_hours", 6], ["started_at", Sat, 24 May 2014 06:46:59 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:46:59 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mSchedule Load (1.5ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 9]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "schedules" SET "user_id" = $1, "updated_at" = $2 WHERE "schedules"."id" = 8[0m  [["user_id", 9], ["updated_at", Sat, 24 May 2014 06:46:59 UTC +00:00]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 135ms (ActiveRecord: 9.4ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (6.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+  [1m[35mSchedule Load (0.5ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 9]]
+  Rendered schedule/index.html within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 10.7ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:46:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:00 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:11 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"alsdkfjlewkjf", "password"=>"[FILTERED]"}
+  [1m[36m (0.8ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+Redirected to http://localhost:3000/home/create
+Completed 302 Found in 4ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/home/create" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+Processing by HomeController#create as HTML
+  Rendered home/create.html within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:47:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:51:32 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 181ms (Views: 164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:51:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.8ms)
+Completed 200 OK in 215ms (Views: 188.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:51 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:51:58 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"sharleen", "password"=>"[FILTERED]"}
+  [1m[35m (0.8ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 93ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:51:58 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:51:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:22 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"sharleen", "password"=>"[FILTERED]"}
+  [1m[35m (4.6ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (2.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:28 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:52:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:53:43 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/josephlee10/Desktop/sleep/sleep/app/controllers/home_controller.rb:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+...originalUsers.include? username) then
+...                               ^):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:228:in `require'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:228:in `block in require'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:213:in `load_dependency'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:228:in `require'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:329:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__1645278761621278048__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/josephlee10/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/josephlee10/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/josephlee10/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (22.8ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:54:11 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/josephlee10/Desktop/sleep/sleep/app/controllers/home_controller.rb:23: syntax error, unexpected tIDENTIFIER, expecting keyword_then or ';' or '\n'
+...originalUsers.include? username then
+...                               ^
+/Users/josephlee10/Desktop/sleep/sleep/app/controllers/home_controller.rb:62: syntax error, unexpected keyword_end, expecting $end):
+  activesupport (4.0.0) lib/active_support/dependencies.rb:228:in `require'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:228:in `block in require'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:213:in `load_dependency'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:228:in `require'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:329:in `require_or_load'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:462:in `load_missing_constant'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:183:in `const_missing'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.0) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:534:in `get'
+  activesupport (4.0.0) lib/active_support/dependencies.rb:565:in `constantize'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__784469770702111787__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/josephlee10/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/josephlee10/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/josephlee10/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.0ms)
+  Rendered /Users/josephlee10/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (47.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:54:57 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.5ms)
+Completed 200 OK in 187ms (Views: 163.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:58 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:59 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:59 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:59 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:59 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:54:59 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"sharleen", "password"=>"[FILTERED]"}
+  [1m[35m (0.6ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+  [1m[35mSchedule Load (9.1ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 9]]
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 150ms (ActiveRecord: 19.4ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'sharleen' LIMIT 1[0m
+  [1m[35mSchedule Load (2.6ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 9]]
+  Rendered schedule/index.html within layouts/application (1.7ms)
+Completed 200 OK in 25ms (Views: 16.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (3.9ms)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:08 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"3kjfaskdfe", "password"=>"[FILTERED]"}
+  [1m[36m (1.4ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+Redirected to http://localhost:3000/home/create
+Completed 302 Found in 12ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/home/create" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+Processing by HomeController#create as HTML
+  Rendered home/create.html within layouts/application (49.2ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:21 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:22 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-23 23:55:48 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"qwerty", "password"=>"[FILTERED]"}
+  [1m[35m (5.0ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.4ms)[0m  INSERT INTO "users" ("created_at", "password", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 24 May 2014 06:55:48 UTC +00:00], ["password", "qwerty"], ["updated_at", Sat, 24 May 2014 06:55:48 UTC +00:00], ["username", "qwerty"]]
+  [1m[36m (4.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 48ms (ActiveRecord: 15.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:55:48 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:49 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:55:57 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"qwerty", "password"=>"[FILTERED]"}
+  [1m[35m (0.9ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'qwerty' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:55:57 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:57 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:57 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:57 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:57 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:55:58 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"qwerty", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'qwerty' LIMIT 1[0m
+  [1m[35mSchedule Load (0.9ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 10]]
+Redirected to http://localhost:3000/schedule/create_schedule?username=qwerty
+Completed 302 Found in 6ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/schedule/create_schedule?username=qwerty" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"qwerty"}
+  Rendered schedule/create_schedule.html within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:05 -0700
+
+
+Started POST "/schedule/post_create_schedule" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+Processing by ScheduleController#post_create_schedule as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "required_num_hours"=>"8"}
+  [1m[36mUser Load (7.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'qwerty' LIMIT 1[0m
+  [1m[35m (1.5ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "schedules" ("created_at", "current_debt", "required_num_hours", "started_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:56:09 UTC +00:00], ["current_debt", 0], ["required_num_hours", 8], ["started_at", Sat, 24 May 2014 06:56:09 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:56:09 UTC +00:00]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36mSchedule Load (0.9ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 10]]
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (5.1ms)[0m  [1mUPDATE "schedules" SET "user_id" = $1, "updated_at" = $2 WHERE "schedules"."id" = 9[0m  [["user_id", 10], ["updated_at", Sat, 24 May 2014 06:56:09 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 56ms (ActiveRecord: 19.4ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'qwerty' LIMIT 1[0m
+  [1m[35mSchedule Load (1.3ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 10]]
+  Rendered schedule/index.html within layouts/application (1.1ms)
+Completed 200 OK in 23ms (Views: 9.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.7ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:56:15 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.2ms)
+Completed 200 OK in 188ms (Views: 170.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:57:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:57:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:22 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:58:38 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 179ms (Views: 161.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:58:39 -0700
+
+
+Started POST "/home/create" for 127.0.0.1 at 2014-05-23 23:59:03 -0700
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU="}
+  Rendered home/create.html within layouts/application (1.9ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:03 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:04 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-23 23:59:10 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"fapchat", "password"=>"[FILTERED]"}
+  [1m[35m (0.7ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (9.8ms)[0m  INSERT INTO "users" ("created_at", "password", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 24 May 2014 06:59:10 UTC +00:00], ["password", "fapchat"], ["updated_at", Sat, 24 May 2014 06:59:10 UTC +00:00], ["username", "fapchat"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-23 23:59:10 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:11 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"fapchat", "password"=>"[FILTERED]"}
+  [1m[35m (2.1ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (10.9ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+Redirected to http://localhost:3000/schedule/create_schedule?username=fapchat
+Completed 302 Found in 100ms (ActiveRecord: 18.2ms)
+
+
+Started GET "/schedule/create_schedule?username=fapchat" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"fapchat"}
+  Rendered schedule/create_schedule.html within layouts/application (1.9ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:20 -0700
+
+
+Started POST "/schedule/post_create_schedule" for 127.0.0.1 at 2014-05-23 23:59:29 -0700
+Processing by ScheduleController#post_create_schedule as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "required_num_hours"=>"8"}
+  [1m[36mUser Load (2.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "schedules" ("created_at", "current_debt", "required_num_hours", "started_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 06:59:29 UTC +00:00], ["current_debt", 0], ["required_num_hours", 8], ["started_at", Sat, 24 May 2014 06:59:29 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:59:29 UTC +00:00]]
+  [1m[35m (1.6ms)[0m  COMMIT
+  [1m[36mSchedule Load (0.6ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 11]]
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "schedules" SET "user_id" = $1, "updated_at" = $2 WHERE "schedules"."id" = 10[0m  [["user_id", 11], ["updated_at", Sat, 24 May 2014 06:59:29 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 89ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:59:29 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (0.5ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  Rendered schedule/index.html within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 19.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:29 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:29 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:30 -0700
+
+
+Started POST "/schedule/log_hours" for 127.0.0.1 at 2014-05-23 23:59:41 -0700
+Processing by ScheduleController#log_hours as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "hours"=>"10"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (2.7ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "days" ("created_at", "hours_slept", "recorded_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 24 May 2014 06:59:41 UTC +00:00], ["hours_slept", 10], ["recorded_at", Sat, 24 May 2014 06:59:41 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:59:41 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (1.1ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mUPDATE "days" SET "schedule_id" = $1, "updated_at" = $2 WHERE "days"."id" = 12[0m  [["schedule_id", 10], ["updated_at", Sat, 24 May 2014 06:59:41 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 132ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:59:41 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (0.6ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  Rendered schedule/index.html within layouts/application (0.9ms)
+Completed 200 OK in 14ms (Views: 8.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:42 -0700
+
+
+Started POST "/schedule/log_hours" for 127.0.0.1 at 2014-05-23 23:59:46 -0700
+Processing by ScheduleController#log_hours as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "hours"=>"8"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (0.7ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.4ms)[0m  INSERT INTO "days" ("created_at", "hours_slept", "recorded_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 24 May 2014 06:59:46 UTC +00:00], ["hours_slept", 8], ["recorded_at", Sat, 24 May 2014 06:59:46 UTC +00:00], ["updated_at", Sat, 24 May 2014 06:59:46 UTC +00:00]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (2.7ms)[0m  [1mUPDATE "days" SET "schedule_id" = $1, "updated_at" = $2 WHERE "days"."id" = 13[0m  [["schedule_id", 10], ["updated_at", Sat, 24 May 2014 06:59:46 UTC +00:00]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 25ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-23 23:59:46 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (0.4ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  Rendered schedule/index.html within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 9.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-23 23:59:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:00:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 185ms (Views: 164.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:54 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-24 00:00:58 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"fapchat", "password"=>"[FILTERED]"}
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 54ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:00:58 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:00:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:07 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-24 00:01:11 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"fapchat", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:01:11 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.4ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:12 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"fapchat", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (14.4ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 128ms (ActiveRecord: 26.5ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (0.6ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  Rendered schedule/index.html within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 10.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:16 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (5.4ms)
+Completed 200 OK in 186ms (Views: 164.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:44 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:45 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-24 00:01:50 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"fapchat", "password"=>"[FILTERED]"}
+  [1m[35m (0.8ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (1.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (6.0ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 153ms (ActiveRecord: 16.3ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-24 00:01:50 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'fapchat' LIMIT 1[0m
+  [1m[35mSchedule Load (0.6ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 11]]
+  Rendered schedule/index.html within layouts/application (3.3ms)
+Completed 200 OK in 21ms (Views: 16.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:50 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:50 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:50 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:01:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:02:53 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (9.8ms)
+Completed 200 OK in 198ms (Views: 174.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:54 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:55 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:55 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:55 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:55 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:55 -0700
+
+
+Started POST "/home/create" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU="}
+  Rendered home/create.html within layouts/application (2.2ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:02:58 -0700
+
+
+Started POST "/home/post_create" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+Processing by HomeController#post_create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"student", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (15.3ms)[0m  INSERT INTO "users" ("created_at", "password", "updated_at", "username") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Sat, 24 May 2014 07:03:04 UTC +00:00], ["password", "student"], ["updated_at", Sat, 24 May 2014 07:03:04 UTC +00:00], ["username", "student"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 63ms (ActiveRecord: 19.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+Processing by HomeController#login as HTML
+  Rendered home/login.html within layouts/application (1.6ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:04 -0700
+
+
+Started POST "/home/post_login" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+Processing by HomeController#post_login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "username"=>"student", "password"=>"[FILTERED]"}
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'student' LIMIT 1[0m
+  [1m[35mSchedule Load (1.2ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 12]]
+Redirected to http://localhost:3000/schedule/create_schedule?username=student
+Completed 302 Found in 60ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/schedule/create_schedule?username=student" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+Processing by ScheduleController#create_schedule as HTML
+  Parameters: {"username"=>"student"}
+  Rendered schedule/create_schedule.html within layouts/application (1.7ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:09 -0700
+
+
+Started POST "/schedule/post_create_schedule" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+Processing by ScheduleController#post_create_schedule as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gKHyEEyoXUC7F2fAtIGaMmgiuaf4MICjEc5lUOsZfFU=", "required_num_hours"=>"10"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'student' LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "schedules" ("created_at", "current_debt", "required_num_hours", "started_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 24 May 2014 07:03:15 UTC +00:00], ["current_debt", 0], ["required_num_hours", 10], ["started_at", Sat, 24 May 2014 07:03:15 UTC +00:00], ["updated_at", Sat, 24 May 2014 07:03:15 UTC +00:00]]
+  [1m[35m (2.4ms)[0m  COMMIT
+  [1m[36mSchedule Load (0.6ms)[0m  [1mSELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1[0m  [["user_id", 12]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "schedules" SET "user_id" = $1, "updated_at" = $2 WHERE "schedules"."id" = 11[0m  [["user_id", 12], ["updated_at", Sat, 24 May 2014 07:03:15 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/schedule
+Completed 302 Found in 87ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/schedule" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+Processing by ScheduleController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'student' LIMIT 1[0m
+  [1m[35mSchedule Load (4.7ms)[0m  SELECT "schedules".* FROM "schedules" WHERE "schedules"."user_id" = $1 ORDER BY "schedules"."id" ASC LIMIT 1  [["user_id", 12]]
+  Rendered schedule/index.html within layouts/application (3.0ms)
+Completed 200 OK in 29ms (Views: 15.6ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 00:03:15 -0700

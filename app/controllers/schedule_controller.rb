@@ -16,7 +16,7 @@ class ScheduleController < ApplicationController
 			@header = "Uh-oh! You have sleep debt!"
 		else
 			@header = "Nice!"
-			@random_info = "You caught up on on your sleep debt. Way to go!"
+			@random_info = "You caught up on on your sleep debt. Way to go!\n\n Remember, there is no such thing as 'sleep credit'"
 		end
 	end
 

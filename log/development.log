@@ -31873,3 +31873,621 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 00:15:57
 
 
 Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 00:15:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:44:22 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.8ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (6.2ms)
+Completed 200 OK in 726ms (Views: 645.7ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+Processing by HomeController#login as HTML
+  [1m[36m (0.7ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+  Rendered home/login.html within layouts/application (1.5ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:44:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.1ms)
+Completed 200 OK in 230ms (Views: 200.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:44:53 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:47:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.4ms)
+Completed 200 OK in 281ms (Views: 251.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+Processing by HomeController#login as HTML
+  [1m[36m (0.8ms)[0m  [1mSELECT "users"."username" FROM "users"[0m
+  Rendered home/login.html within layouts/application (1.9ms)
+Completed 200 OK in 61ms (Views: 57.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:47:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 232ms (Views: 201.0ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:47:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:48:37 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 257ms (Views: 225.7ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:48:38 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:50:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.5ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.6ms)
+Completed 200 OK in 226ms (Views: 198.0ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:50:45 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.5ms)
+Completed 200 OK in 246ms (Views: 210.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:45 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:45 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:45 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:45 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:45 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:50:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-24 15:53:57 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#login as HTML
+  [1m[35m (0.4ms)[0m  SELECT "users"."username" FROM "users"
+  Rendered home/login.html within layouts/application (5.3ms)
+Completed 200 OK in 232ms (Views: 202.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/schedule.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/sleep.css?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/jquery-1.10.2.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/schedule.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/sleep.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-05-24 15:53:59 -0700

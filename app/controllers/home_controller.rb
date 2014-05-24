@@ -3,6 +3,8 @@ class HomeController < ApplicationController
 	@@originalUsers = ["sharleen", "zzzzz", "calvinseo", "Pahang", "sally", "kleegoma", "mackszimo", "kpimpress", "jrabbott", "hiJoe", "napper", "stephen", "eliang22", "cj", "jlee229", "timpj", "sarah", "lktennis55", "sleepisfortheweak", "cash money", "hottieboy", "a", "ajb357", "mjamison", "michaelshan8", "emiliana13", "MarkyC", "rtran58", "kennyyay", "bobby", "yesKAS", "HI", "cardinal724", "turtletorta", "jay", "jchang", "ashleychenhijoelee!", "ramenbox", "mike", "psh7275"]
 
 	def login
+		allUsers = User.pluck(:username)
+		@numUsers = allUsers.length
 	end
 
 	def post_login
